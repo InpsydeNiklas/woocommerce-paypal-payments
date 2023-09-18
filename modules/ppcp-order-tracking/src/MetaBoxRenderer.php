@@ -163,28 +163,34 @@ class MetaBoxRenderer {
 				foreach ( $shipments as $shipment ) {
 					$shipment->render( $this->allowed_statuses );
 				}
-				?>
-				<?php if ( empty( $shipments ) ) : ?>
-					<?php
+
+				if ( empty( $shipments ) ) :
 					$documentation_url = 'https://woocommerce.com/document/woocommerce-paypal-payments/#package-tracking';
 					$message1 = esc_html__( 'Package Tracking data has not been shared with PayPal on this order.', 'woocommerce-paypal-payments' );
 					$message2 = esc_html__( 'Add tracking details on this order to qualify for PayPal Seller Protection, faster holds release and automated dispute resolution.', 'woocommerce-paypal-payments' );
 					$message3 = sprintf(
-					/* translators: %1$s: the documentation URL opening HTML tag, %2$s: the link ending HTML tag. */
+					/* translators: %1$s: opening anchor tag with URL, %2$s: closing anchor tag */
 						esc_html__( '%1$sDiscover full benefits of PayPal Package Tracking here.%2$s', 'woocommerce-paypal-payments' ),
-						'<strong><a href="' . esc_url( $documentation_url ) . '">',
+						'<strong><a target="_blank" href="' . esc_url( $documentation_url ) . '">',
 						'</a></strong>'
 					);
-					$allowed_html = array(
-						'a' => array(
-							'href' => array(),
-						),
-						'strong' => array(),
-						'br' => array(),
-					);
+					$allowed_html = [
+						'a'      => [
+							'href' => [],
+							'target' => [],
+						],
+						'strong' => [],
+						'br'     => [],
+					];
 					?>
 					<p class="ppcp-tracking-no-shipments">
-						<?php echo wp_kses( $message1 . '<br>' . $message2 . '<br><br>' . $message3, $allowed_html ); ?>
+						<?php
+						echo wp_kses( $message1, $allowed_html );
+						echo '<br>';
+						echo wp_kses( $message2, $allowed_html );
+						echo '<br><br>';
+						echo wp_kses( $message3, $allowed_html );
+						?>
 					</p>
 				<?php endif; ?>
 			</div>
