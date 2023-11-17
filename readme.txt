@@ -30,6 +30,9 @@ PayPal Pay Later allows customers to pay over time while you get paid up front �
 = Venmo (US only) =
 Reach Venmo shoppers while allowing customers to share purchases with friends. **Venmo users spend 2.2 times more annually on online purchases compared to other online buyers.³**
 
+= Apple Pay & Google Pay =
+Provide Apple Pay and Google Pay for transparent, secure transactions at competitive rates. Making it easy for you to do business, even if customers don't have PayPal.
+
 = Country-specific payment methods =
 Offer locally recognized payment methods to help build trust and reach international customers, including Payment Upon Invoice (PUI), a local payment option available only for purchases completed in Germany.
 
@@ -164,7 +167,7 @@ Complete onboarding instructions can be found in the [documentation here](https:
 
 = Updating =
 
-Automatic updates should work generally smoothly, but we still recommend you back up your site.
+Automatic updates should work generally smoothly, but we still recommend you back up your site. Critical parts of your website generally are recommended to be tested in a separate [staging site](https://github.com/woocommerce/woocommerce-paypal-payments/wiki/Advanced-Troubleshooting#test-on-staging) before deploying changes to the live website.
 
 If you encounter issues with the PayPal buttons not appearing after an update, purge your website cache. [Caching](https://woocommerce.com/document/configuring-caching-plugins/) or [JavaScript minification](https://woocommerce.com/document/configuring-caching-plugins/#w3-total-cache-minify-settings) can impact PayPal Payments and should be [disabled for the PayPal scripts](https://woocommerce.com/document/woocommerce-paypal-payments/#faq-paypal-smart-buttons-not-loading) or payment-related pages.
 
