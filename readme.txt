@@ -1,10 +1,10 @@
 === WooCommerce PayPal Payments ===
-Contributors: woocommerce, automattic, inpsyde
+Contributors: woocommerce, automattic, syde
 Tags: woocommerce, paypal, payments, ecommerce, checkout, cart, pay later, apple pay, subscriptions, debit card, credit card, google pay
 Requires at least: 5.3
-Tested up to: 6.4
+Tested up to: 6.5
 Requires PHP: 7.2
-Stable tag: 2.5.4
+Stable tag: 2.7.1
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -40,26 +40,26 @@ Offer locally recognized payment methods to help build trust and reach internati
 
 - **Advanced Card Processing**: Get everything that comes with PayPal’s standard integration, along with the ability to customize the look, feel, and placement of your debit and credit card payment fields. You can also use fraud protection tools to set up your own risk tolerance filters.
 
-The **Advanced Card Processing** option supports digital wallet services such as [**Apple Pay**](https://woo.com/document/woocommerce-paypal-payments/#apple-pay) & [**Google Pay**](https://woo.com/document/woocommerce-paypal-payments/#google-pay) (separate signup required) to give your buyers more ways to pay without a PayPal account.
+The **Advanced Card Processing** gives you access to digital wallet services such as [**Apple Pay**](https://woocommerce.com/document/woocommerce-paypal-payments/#apple-pay) & [**Google Pay**](https://woocommerce.com/document/woocommerce-paypal-payments/#google-pay) (separate signup required) to give your buyers more ways to pay without a PayPal account.
 
 = Offer Subscription payments to help drive repeat business =
 
 Create stable, predictable income by offering subscription plans.
-WooCommerce PayPal Payments is compatible with [Woo Subscriptions](https://woo.com/products/woocommerce-subscriptions/).
+WooCommerce PayPal Payments is compatible with [Woo Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/).
 
-[PayPal Subscriptions](https://woo.com/document/woocommerce-paypal-payments/#paypal-subscriptions) allow any business sellers to accept reliable recurring payments on a fixed billing schedule. PayPal fully controls the subscription renewal processing when using PayPal Subscriptions, allowing you to profit from stable recurring income.
+[PayPal Subscriptions](https://woocommerce.com/document/woocommerce-paypal-payments/#paypal-subscriptions) allow any PayPal business account to accept reliable recurring payments on a fixed billing schedule. PayPal fully controls the subscription renewal processing when using PayPal Subscriptions, allowing you to profit from stable recurring income.
 
-With the [PayPal Vaulting](https://www.paypal.com/us/brc/article/securely-store-payments) feature ([advanced wallet approval required](https://woo.com/document/woocommerce-paypal-payments/#get-vaulting-approval)), payment methods can be saved by the buyer which allow for flexible subscription with fixed or quantity pricing, set billing cycles for the time period you want, and offer all kinds of subscriptions with prorated payments or discounted trial periods.
+With the [PayPal Vaulting](https://www.paypal.com/us/brc/article/securely-store-payments) feature ([advanced wallet approval required](https://woocommerce.com/document/woocommerce-paypal-payments/#get-vaulting-approval)), PayPal or Venmo payment methods can be saved by the buyer for flexible subscription payments with fixed or quantity pricing, varying billing cycles, or all kinds of subscriptions with prorated payments or discounted trial periods.
 
-Unlock seamless and secure payment experiences with [PayPal Vaulting](https://www.paypal.com/us/brc/article/securely-store-payments). This advanced feature, [subject to wallet approval](https://woo.com/document/woocommerce-paypal-payments/#get-vaulting-approval), empowers your customers to securely save their payment methods. Beyond paving the way for a range of flexible subscription options—be it with fixed or variable pricing, custom billing cycles, or enticing offers such as prorated payments and discounted trial periods—PayPal Vaulting also significantly enhances the return buyer experience. By enabling one-click payments, it streamlines the checkout process for future transactions, ensuring that even non-subscription-based purchases are quicker and more convenient. Take advantage of PayPal Vaulting to equip your business with the tools to tailor payment solutions to your unique needs, whether for engaging subscriptions or efficient one-time purchases.
+PayPal Vaulting also significantly enhances the return buyer experience with seamless and secure payment experiences. One-click payments streamline the checkout process for future transactions, ensuring that even non-subscription-based purchases are quicker and more convenient. Use PayPal Vaulting to equip your business with the tools to tailor payment solutions to your unique needs, whether for engaging subscriptions or efficient one-time purchases.
 
 It’s easy for shoppers, simple for you, and great for your business – with no monthly or setup fees.
 
 = Activate PayPal =
-Are you new to PayPal? [Learn how to add it to your store.](https://woo.com/document/woocommerce-paypal-payments/)
-Need to update your existing PayPal integration? [Learn how to upgrade your integration.](https://woo.com/document/woocommerce-paypal-payments/paypal-payments-upgrade-guide/)
+Are you new to PayPal? [Learn how to add it to your store.](https://woocommerce.com/document/woocommerce-paypal-payments/)
+Need to update your existing PayPal integration? [Learn how to upgrade your integration.](https://woocommerce.com/document/woocommerce-paypal-payments/paypal-payments-upgrade-guide/)
 
-[Watch the video on how to activate PayPal for your WooCommerce store](https://woo.com/document/woocommerce-paypal-payments/#complete-setup-video)
+[Watch the video on how to activate PayPal for your WooCommerce store](https://woocommerce.com/document/woocommerce-paypal-payments/#complete-setup-video)
 
 = More reasons it pays to PayPal =
 - **Instant access to funds**: Access card payments, send money or make a payment from your bank account. You’re credited immediately while the payment is processing. Funds settle instantly into your PayPal business account.
@@ -84,22 +84,22 @@ Need to update your existing PayPal integration? [Learn how to upgrade your inte
 
 = Where can I find the documentation and setup guide? =
 
-For help setting up and configuring WooCommerce PayPal Payments, please refer to the documentation. [Learn how to add PayPal to your store.](https://woo.com/document/woocommerce-paypal-payments/)
-Need to update your existing PayPal integration? [Learn how to upgrade your integration.](https://woo.com/document/woocommerce-paypal-payments/paypal-payments-upgrade-guide/)
-[Watch the video on how to activate PayPal for your WooCommerce store](https://woo.com/document/woocommerce-paypal-payments/#complete-setup-video)
+For help setting up and configuring WooCommerce PayPal Payments, please refer to the documentation. [Learn how to add PayPal to your store.](https://woocommerce.com/document/woocommerce-paypal-payments/)
+Need to update your existing PayPal integration? [Learn how to upgrade your integration.](https://woocommerce.com/document/woocommerce-paypal-payments/paypal-payments-upgrade-guide/)
+[Watch the video on how to activate PayPal for your WooCommerce store](https://woocommerce.com/document/woocommerce-paypal-payments/#complete-setup-video)
 
 = Where can I get help? =
 
-For questions regarding the plugin setup, we recommend reviewing our [documentation](https://woo.com/document/woocommerce-paypal-payments/) and the [troubleshooting guide](https://woo.com/document/woocommerce-paypal-payments/#troubleshooting) if you encounter any issues.
-If the question or problem persists after reviewing the documentation, kindly create a new thread in the [support forums](https://wordpress.org/support/plugin/woocommerce-paypal-payments/#new-topic-0) or open a support ticket via [our helpdesk](https://woo.com/document/woocommerce-paypal-payments/#get-help).
+For questions regarding the plugin setup, we recommend reviewing our [documentation](https://woocommerce.com/document/woocommerce-paypal-payments/) and the [troubleshooting guide](https://woocommerce.com/document/woocommerce-paypal-payments/#troubleshooting) if you encounter any issues.
+If the question or problem persists after reviewing the documentation, kindly create a new thread in the [support forums](https://wordpress.org/support/plugin/woocommerce-paypal-payments/#new-topic-0) or open a support ticket via [our helpdesk](https://woocommerce.com/document/woocommerce-paypal-payments/#get-help).
 
 = Something suddenly no longer works – what do I do? =
 
-Start by diagnosing the issue using our helpful [troubleshooting guide](https://woo.com/document/woocommerce-paypal-payments/#troubleshooting).
+Start by diagnosing the issue using our helpful [troubleshooting guide](https://woocommerce.com/document/woocommerce-paypal-payments/#troubleshooting).
 If you notice an error or any other issue after updating a plugin or the theme, there could be a potential compatibility issue between it and WooCommerce PayPal Payments.
 In such cases, we recommend running a [conflict test](https://github.com/woocommerce/woocommerce-paypal-payments/wiki/Advanced-Troubleshooting) using [Health Check](https://github.com/woocommerce/woocommerce-paypal-payments/wiki/Advanced-Troubleshooting#test-on-staging) (which allows you to disable themes and plugins without affecting your visitors) or troubleshooting the issue using a [staging site](https://github.com/woocommerce/woocommerce-paypal-payments/wiki/Advanced-Troubleshooting#test-on-staging).
 
-If you can't solve the problem yourself, don't worry! Please open a support ticket via [our helpdesk](https://woo.com/document/woocommerce-paypal-payments/#get-help), and our team will assist you.
+If you can't solve the problem yourself, don't worry! Please open a support ticket via [our helpdesk](https://woocommerce.com/document/woocommerce-paypal-payments/#get-help), and our team will assist you.
 
 = Where can I report bugs? =
 
@@ -107,22 +107,22 @@ Please report confirmed bugs on the [WooCommerce PayPal Payments GitHub reposito
 
 = Where can I request new features or compatibility with other extensions? =
 
-Request new and vote on existing suggestions  for features and extensions on our official [feature request board](https://woo.com/feature-requests/woocommerce-paypal-payments/). Our product teams regularly review requests and consider them valuable for product planning. Our support team is also always interested in learning about your ideas to improve the extension.
+Request new and vote on existing suggestions  for features and extensions on our official [feature request board](https://woocommerce.com/feature-requests/woocommerce-paypal-payments/). Our product teams regularly review requests and consider them valuable for product planning. Our support team is also always interested in learning about your ideas to improve the extension.
 
 = Does it support subscriptions? =
 
-Yes, WooCommerce PayPal Payments can be used with the official [Woo Subscriptions](https://woo.com/products/woocommerce-subscriptions/) plugin.
-Accept recurring payments on a fixed billing schedule with [PayPal Subscriptions](https://www.paypal.com/webapps/mpp/subscription-payments) or save your buyers' payment methods for future payments using the Vaulting feature ([business account approval required](https://woo.com/document/woocommerce-paypal-payments/#get-vaulting-approval)).
-View the [Subscriptions FAQ](https://woo.com/document/woocommerce-paypal-payments/#subscriptions-faq) for more details.
+Yes, WooCommerce PayPal Payments can be used with the official [Woo Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) plugin.
+Accept recurring payments on a fixed billing schedule with [PayPal Subscriptions](https://www.paypal.com/webapps/mpp/subscription-payments) or save your buyers' payment methods for future payments using the Vaulting feature ([business account approval required](https://woocommerce.com/document/woocommerce-paypal-payments/#get-vaulting-approval)).
+View the [Subscriptions FAQ](https://woocommerce.com/document/woocommerce-paypal-payments/#subscriptions-faq) for more details.
 
 = Does it support Apple Pay & Google Pay? =
 
-Yes, digital wallet services such as [**Apple Pay**](https://woo.com/document/woocommerce-paypal-payments/#apple-pay) & [**Google Pay**](https://woo.com/document/woocommerce-paypal-payments/#google-pay) are supported. These payment methods rely on the **Advanced Card Processing** and require a dedicated signup process to get enabled.
+Yes, digital wallet services such as [**Apple Pay**](https://woocommerce.com/document/woocommerce-paypal-payments/#apple-pay) & [**Google Pay**](https://woocommerce.com/document/woocommerce-paypal-payments/#google-pay) are supported. These payment methods rely on the **Advanced Card Processing** and require a dedicated signup process to get enabled.
 
 = Does WooCommerce PayPal Payments support WooCommerce Blocks? =
 
 Yes, WooCommerce PayPal Payments offers experimental support for the new WooCommerce Cart & Checkout Blocks. The team continues to work on providing a seamless integration with the new WooCommerce Blocks.
-View the [Blocks FAQ](https://woo.com/document/woocommerce-paypal-payments/#faq-does-paypal-payments-support-blocks) for more details.
+View the [Blocks FAQ](https://woocommerce.com/document/woocommerce-paypal-payments/#faq-does-paypal-payments-support-blocks) for more details.
 
 = Are there any other new features in development? =
 
@@ -132,11 +132,11 @@ View the [Testing features previews FAQ](https://github.com/woocommerce/woocomme
 = WooCommerce PayPal Payments is awesome! Can I contribute? =
 
 Yes, you can! Contributions are always appreciated. Join in on our [GitHub repository](https://github.com/woocommerce/woocommerce-paypal-payments/issues) to stay up-to-date with the latest developments.
-If you like the plugin, please also consider leaving a review [here](https://wordpress.org/support/plugin/woocommerce-paypal-payments/reviews/#new-post) or [here](https://woo.com/products/woocommerce-paypal-payments/#reviews) to share your valuable feedback with other users as it is much appreciated.
+If you like the plugin, please also consider leaving a review [here](https://wordpress.org/support/plugin/woocommerce-paypal-payments/reviews/#new-post) or [here](https://woocommerce.com/products/woocommerce-paypal-payments/#reviews) to share your valuable feedback with other users as it is much appreciated.
 
 = My question is not listed here. Where can I find more answers? =
 
-Check out the [Frequently Asked Questions](https://woo.com/document/woocommerce-paypal-payments/#faqs) for more or [contact the support team](https://woo.com/document/woocommerce-paypal-payments/#get-help).
+Check out the [Frequently Asked Questions](https://woocommerce.com/document/woocommerce-paypal-payments/#faqs) for more or [contact the support team](https://woocommerce.com/document/woocommerce-paypal-payments/#get-help).
 
 == Installation ==
 
@@ -169,13 +169,13 @@ Follow the steps below to connect the plugin to your PayPal account:
 6. After you have successfully connected your PayPal account, click on the **Standard Payments** tab and check the **Enable Paypal features for your store** checkbox to enable PayPal.
 7. Click **Save changes**.
 
-Complete onboarding instructions can be found in the [documentation here](https://woo.com/document/woocommerce-paypal-payments/#connect-paypal-account).
+Complete onboarding instructions can be found in the [documentation here](https://woocommerce.com/document/woocommerce-paypal-payments/#connect-paypal-account).
 
 = Updating =
 
 Automatic updates should work generally smoothly, but we still recommend you back up your site.
 
-If you encounter issues with the PayPal buttons not appearing after an update, purge your website cache. [Caching](https://woo.com/document/configuring-caching-plugins/) or [JavaScript minification](https://woo.com/document/configuring-caching-plugins/#w3-total-cache-minify-settings) can negatively impact PayPal Payments and should be [disabled for the PayPal scripts](https://woo.com/document/woocommerce-paypal-payments/#faq-paypal-smart-buttons-not-loading) or payment-related pages.
+If you encounter issues with the PayPal buttons not appearing after an update, purge your website cache. [Caching](https://woocommerce.com/document/configuring-caching-plugins/) or [JavaScript minification](https://woocommerce.com/document/configuring-caching-plugins/#w3-total-cache-minify-settings) can negatively impact PayPal Payments and should be [disabled for the PayPal scripts](https://woocommerce.com/document/woocommerce-paypal-payments/#faq-paypal-smart-buttons-not-loading) or payment-related pages.
 
 == Screenshots ==
 
